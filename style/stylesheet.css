@@ -1,0 +1,68 @@
+#navbar ul {
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+}
+
+#navbar ul li {
+	display:inline;
+	margin-right:15px;
+	float:right;
+}
+
+#navbar ul li a {
+	text-decoration: none;
+	color:black;
+}
+
+#logo {
+	margin:0% 0% 0% 30%;
+	width: 35%;
+	top: 150px;
+}
+
+form {
+	text-align: -webkit-center;
+	display:block;
+}
+
+#espace {
+	height:200px;
+}
+
+#searchbar {
+	width:370px;
+	height:30px;
+	display:block;
+}
+
+button1, button2 {
+
+	display:inline-block;
+}
+
+
+
+footer {
+	display: block;
+	background-color: #f2f2f2;
+	line-height:40px;
+}
+
+
+footer ul {
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+    display:inline-block;
+}
+
+footer ul li {
+	display:inline;
+}
+
+footer ul li a {
+	text-decoration: none;
+	color: #858282;
+	padding: 8px 16px;
+}
