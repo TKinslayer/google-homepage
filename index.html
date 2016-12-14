@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Google</title>
-		<link type="text/css" style="css" href="style/stylesheet.html" />
+		<link rel="stylesheet" href="style/stylesheet.css" />
 	</head>
 	
 	<body>
@@ -17,23 +17,23 @@
 		</div>
 		
 		<div id=content>
-			<img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Logo Google" />
+			<img id="logo" src="pic/google-logo-vector-free-download.png" alt="Logo Google" />
 			<form action="#" method="post" name="my_recherche">
-				<input type="text" name="text_recherche">
-				<input type="submit" value="Recherche Google">
-				<input type="submit" value="J'ai de la chance">
+				<input id="searchbar" type="text" name="text_recherche">
+				<input id="button1" type="submit" value="Recherche Google">
+				<input id="button2" type="submit" value="J'ai de la chance">
 			</form>
 		</div>
-		
+		<div id="espace"></div>
 	</body>
 	
 	<footer>
-		<ul>
+		<ul id="bas_gauche">
 			<li><a href="#">Publicité</a></li>
 			<li><a href="#">Entreprise</a></li>
 			<li><a href="#">A propos</a></li>
 		</ul>
-		<ul>
+		<ul id="bas_droite" style="float:right;display:inline;">
 			<li><a href="#">Confidentialité</a></li>
 			<li><a href="#">Conditions</a></li>
 			<li><a href="#">Paramètres</a></li>
